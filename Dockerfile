@@ -1,5 +1,5 @@
 # Ought to be some Debian distribution
-FROM golang:bookworm
+FROM debian:bookworm
 
 # Rest of this should be boilerplate
 ENV RUNNING_IN_DOCKER true
